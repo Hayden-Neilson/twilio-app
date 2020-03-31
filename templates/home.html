@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <titl>Twilio Texting Home</titl>
+</head>
+
+
+<body>
+    <h1>Sent Twilio Texting App</h1>
+    <form action="{{url_for('send_sms')}}" method='POST'>
+        <div>
+            <input type="text" name="phone" placeholder="enter a phone number" />
+            <input type="text" name="message" placeholder="enter a your text" />
+            <input type="submit" value="send txt" />
+        </div>
+    </form>
+
+</body>
+
+</html>
